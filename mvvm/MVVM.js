@@ -165,7 +165,7 @@ CompileUtil = {
         })
         node.addEventListener('input', (e)=>{
             let value = e.target.value // 获取用户输入的内容
-            this.setValue(vm, expr, value)
+            this.setVal(vm, expr, value)
         })
         let value = this.getVal(vm,expr) // yui
         fn(node,value)
